@@ -4,7 +4,8 @@
   "description": "A newman reporter for Teamcity.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/leafle/newman-reporter-teamcity/issues"
   },
-  "homepage": "https://github.com/leafle/newman-reporter-teamcity#readme"
+  "homepage": "https://github.com/leafle/newman-reporter-teamcity#readme",
+  "devDependencies": {
+    "flow-bin": "^0.36.0"
+  }
 }
