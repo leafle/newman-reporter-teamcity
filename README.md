@@ -33,8 +33,10 @@ newman run https://www.getpostman.com/collections/<your-collection-url> -x --del
 ```
 
 The output will show up in your Build Log like this:
+
 ![TeamCity Log View](https://user-images.githubusercontent.com/109331/28225215-74855590-6897-11e7-84ae-00db6e60a2cb.PNG)
 
 and in the Tests tab in TeamCity like this:
+
 ![TeamCity Tests View](https://user-images.githubusercontent.com/109331/28225212-70810732-6897-11e7-9b66-692dc17a0641.PNG)
 
