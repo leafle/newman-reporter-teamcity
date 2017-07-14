@@ -1,5 +1,5 @@
 # newman-reporter-teamcity
-A [newman](https://github.com/postmanlabs/newman) reporter for TeamCity.
+A [newman](https://github.com/postmanlabs/newman) reporter for TeamCity.  See the [newman documentation](https://www.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman) for more info.
 
 ## Getting Started
 
