@@ -29,7 +29,7 @@ npm install -g newman-reporter-teamcity
 Add a command line step to your TeamCity build with something like this.  The `-r teamcity` is the flag to enable TeamCity reporting.
 
 ```
-newman run https://www.getpostman.com/collections/<your-collection-url> -x --delay-request 10 -r teamcity
+newman run "https://www.getpostman.com/collections/<your-collection-url>" -x --delay-request 10 -r teamcity
 ```
 
 The output will show up in your Build Log like this:
