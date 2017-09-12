@@ -1,6 +1,6 @@
 {
-  "name": "newman-reporter-teamcity",
-  "version": "0.1.6",
+  "name": "newman-reporter-myob-teamcity",
+  "version": "0.1.1",
   "description": "A newman reporter for Teamcity.",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leafle/newman-reporter-teamcity.git"
+    "url": "git+https://github.com/gqy117/newman-reporter-teamcity.git"
   },
   "keywords": [
     "postman",
@@ -18,10 +18,13 @@
     "api",
     "test"
   ],
-  "author": "Brandon Smyth <bsmyth77@gmail.com>",
+  "author": "Leo Li <gqy117@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leafle/newman-reporter-teamcity/issues"
+    "url": "https://github.com/gqy117/newman-reporter-teamcity/issues"
   },
-  "homepage": "https://github.com/leafle/newman-reporter-teamcity#readme"
+  "homepage": "https://github.com/gqy117/newman-reporter-teamcity#readme",
+  "devDependencies": {
+    "uuid": "^3.1.0"
+  }
 }
