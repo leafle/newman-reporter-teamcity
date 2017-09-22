@@ -3,8 +3,12 @@
   "version": "0.1.7",
   "description": "A newman reporter for Teamcity.",
   "main": "lib/index.js",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.5.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
