@@ -4,11 +4,13 @@
   "description": "A newman reporter for Teamcity.",
   "main": "lib/index.js",
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "mocha": "^3.5.3"
+    "jest-cli": "^21.1.0"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
