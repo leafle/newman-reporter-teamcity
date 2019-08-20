@@ -1,6 +1,6 @@
 {
   "name": "newman-reporter-teamcity",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "A newman reporter for Teamcity.",
   "main": "lib/index.js",
   "devDependencies": {
