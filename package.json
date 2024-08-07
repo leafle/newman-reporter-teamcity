@@ -4,7 +4,7 @@
   "description": "A newman reporter for Teamcity.",
   "main": "lib/index.js",
   "devDependencies": {
-    "jest-cli": "^24.9.0"
+    "jest-cli": "^29.7.0"
   },
   "scripts": {
     "test": "jest"
